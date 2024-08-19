@@ -19,7 +19,7 @@ html {
   }
   
   body {
-    background-image: url("/adaptive-landing-page-final/background.png");
+    background-image: url("https://mattphui.github.io/adaptive-landing-page-final/background.png");
     background-repeat: no-repeat; /* Prevent the image from repeating */
     background-size: cover; /* Make the image cover the entire viewport */
     background-position: center; /* Center the image */
