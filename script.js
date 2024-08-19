@@ -23,3 +23,15 @@ closeButtons.forEach(closeButton => {
     }
   });
 });
+
+// Select all close text elements inside pop-ups
+const closeTexts = document.querySelectorAll(".close-popup");
+
+closeTexts.forEach(closeText => {
+  closeText.addEventListener("click", function() {
+    const popup = this.closest(".popup"); // Find the closest popup to this text
+    if (popup) {
+      popup.style.display = "none"; // Hide the popup
+    }
+  });
+});
