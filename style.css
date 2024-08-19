@@ -19,7 +19,7 @@ html {
   }
   
   body {
-    background-image: url("spiral-landing-back-2.png");
+    background-image: "spiral-landing-back-2.png";
     background-repeat: no-repeat; /* Prevent the image from repeating */
     background-size: cover; /* Make the image cover the entire viewport */
     background-position: center; /* Center the image */
