@@ -29,6 +29,7 @@ const closeTexts = document.querySelectorAll(".close-popup");
 
 closeTexts.forEach(closeText => {
   closeText.addEventListener("click", function() {
+    console.log("Close button clicked");
     const popup = this.closest(".popup"); // Find the closest popup to this text
     if (popup) {
       popup.style.display = "none"; // Hide the popup
